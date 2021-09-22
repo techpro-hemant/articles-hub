@@ -1,0 +1,24 @@
+header {
+  height: 80px;
+  background-color: #294E80;
+  color: white;
+  border: 0px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgb(238, 238, 238);
+  .logo {
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  .actions-text {
+    font-weight: 600;
+  }
+  a {
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .profile-logo {
+    color: rgb(51, 51, 51);
+  }
+}

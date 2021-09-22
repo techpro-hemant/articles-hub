@@ -1,0 +1,37 @@
+input {
+  font-family: "SeogeUI";
+  font-weight: 400;
+}
+form {
+  input {
+    margin: 0px !important;
+  }
+  .error-text {
+    font-size: 0.8rem;
+    color: #F44336;
+  }
+}
+.btn, .btn-large, .btn-small{
+  background-color: #294E80 !important;
+}
+input[type=text]:not(.browser-default):focus:not(readonly){
+  border-bottom: 1px solid #294E80 !important;
+  box-shadow: 0 1px 0 0 #294E80 !important;
+}
+input[type=text]:not(.browser-default):focus:not(readonly)+label{
+  color: #294E80 !important;
+}
+input[type=password]:not(.browser-default):focus:not(readonly){
+  border-bottom: 1px solid #294E80 !important;
+  box-shadow: 0 1px 0 0 #294E80 !important;
+}
+input[type=password]:not(.browser-default):focus:not(readonly)+label{
+  color: #294E80 !important;
+}
+textarea.materialize-textarea:focus:not([readonly]){
+  border-bottom: 1px solid #294E80 !important;
+  box-shadow: 0 1px 0 0 #294E80 !important;
+}
+textarea.materialize-textarea:focus:not([readonly])+label{
+  color: #294E80 !important;
+}

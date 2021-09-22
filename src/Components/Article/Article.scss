@@ -1,0 +1,44 @@
+.article-item {
+  border: 1px solid #eeeeee;
+  padding: 20px;
+  margin-bottom: 20px;
+  .article-item-info {
+    img {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+    }
+  }
+  .article-item-heading {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .article-item-content {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  .article-item-control {
+    i {
+      font-size: 1.5rem;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    .favorite-color {
+      color: red;
+    }
+  }
+  .article-item-tags {
+    .tags {
+      font-size: 0.9rem;
+      margin-right: 10px;
+    }
+  }
+  .article-item-timestamp {
+    font-size: 0.8rem;
+    span {
+      float: right;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.main {
+  .modal{
+    width: 40%;
+  }
+  .summary-heading {
+    font-weight: 600;
+    font-size: 70px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .summary-text {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .chip {
+    display: inline-block;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 50px;
+    padding-right: 12px;
+    padding-left: 5px;
+    border-radius: 30px;
+    background-color: rgba(242, 242, 242, 1);
+    margin-bottom: 5px;
+    margin-right: 5px;
+    div {
+      display: flex;
+      align-items: center;
+      .hash-icon {
+        height: 38px;
+        width: 38px;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        justify-content: center;
+        box-shadow: 3px 3px 16px rgba(204, 204, 204, 1);
+      }
+    }
+    &:hover {
+      background-color: #e4e4e4;
+      cursor: pointer;
+    }
+  }
+  .register-button {
+    display: flex;
+    justify-content: center;
+    .get-started {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 70px;
+      width: 200px;
+      font-size: 1.2rem;
+      font-family: "SegoeUI";
+    }
+    .modal-content {
+      height: 100% !important;
+    }
+    .popup-link {
+      text-decoration: none;
+      color: #294E80;
+      &:hover {
+        color: #039be5;
+      }
+    }
+    .modal-heading-text {
+      font-size: 3.5rem;
+      font-weight: 700;
+    }
+    .moto-line {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 0 auto;
+    }
+  }
+}

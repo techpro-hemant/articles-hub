@@ -1,0 +1,38 @@
+.sidebar {
+  ul {
+    li {
+      font-size: 1.5rem;
+      font-weight: 600;
+      a {
+        color: rgb(51, 51, 51);
+        &:hover {
+          color: #039be5;
+        }
+      }
+      .fa-user {
+        color: #2cb978;
+      }
+      .fa-sticky-note {
+        color: #226089;
+      }
+      .fa-heart {
+        color: #ff1f5a;
+      }
+    }
+  }
+}
+.tags {
+  .tag-heading {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .tags-list {
+    text-align: center;
+    .chip {
+        cursor: pointer;
+    }
+    .tag-icon {
+      margin-right: 5px;
+    }
+  }
+}
